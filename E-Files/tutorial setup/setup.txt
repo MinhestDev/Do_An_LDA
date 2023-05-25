@@ -1,0 +1,10 @@
+- Clone the repository.
+- Run composer install.
+- Copy & setup .env file.
+- Create database & Change DB_DATABASE in .env.
+- Migrate the Database php artisan migrate.
+- Run php artisan key:generate
+- Run php artisan db:seed (This will generate super-admin & basic settings [required]).
+- Default Login Credential for super admin
+- Username	Password
+   super	123456
